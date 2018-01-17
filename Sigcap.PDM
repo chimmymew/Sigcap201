@@ -1,0 +1,643 @@
+[Root]
+Most Recent Package=Sigcap 201 Setup
+
+
+[Package|Sigcap Setup|สัญญาณวิเคราะห์ ๑.๐]
+Icon1=Sigcap.exe
+Title1=สัญญาณวิเคราะห์ ๑.๐
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sigcap Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\Desktop\Sigcap\Package
+
+[Package|Sigcap Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sigcap Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sigcap Setup|Files Found]
+calibrate.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal
+molybdate-cal.calib=M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib
+reproducibility.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal
+
+[Package|Sigcap Setup|Files Released]
+signal001.signal=
+
+[Package|Sigcap Setup|Missing Dependency Information]
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=
+
+[Package|Sigcap Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSCOMM32.OCX=
+M:\WINDOWS\system32\scrrun.dll=
+
+[Package|Sigcap Setup|Files Added]
+calibrate.signal=
+molybdate-cal.calib=
+reproducibility.signal=
+test.calib=
+test.signal=
+m:\documents and settings\administrator\desktop\sigcap\testrun001.signal=
+
+[Package|Sigcap Setup|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Sigcap Setup|Files In Project]
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=Yes
+M:\WINDOWS\system32\msvbvm60.dll=Yes
+M:\WINDOWS\system32\oleaut32.dll=Yes
+M:\WINDOWS\system32\olepro32.dll=Yes
+M:\WINDOWS\system32\ASYCFILT.DLL=Yes
+M:\WINDOWS\system32\stdole2.tlb=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=Yes
+M:\WINDOWS\system32\scrrun.dll=Yes
+M:\WINDOWS\system32\msvcrt.dll=Yes
+M:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+M:\WINDOWS\system32\COMDLG32.OCX=Yes
+M:\WINDOWS\system32\MSCOMM32.OCX=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+M:\WINDOWS\system32\VB6STKIT.DLL=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=Yes
+
+[Package|Sigcap Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Sigcap Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Sigcap Setup|Install Locations]
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=$(AppPath)
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=$(AppPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+M:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+M:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=$(AppPath)
+M:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+M:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+M:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+M:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+M:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=$(AppPath)
+
+[Package|Sigcap Setup|Configure Shared Files]
+Applicable=Yes
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=No
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=Yes
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=No
+
+[Package|Sigcap Setup|Distribution]
+Type=single
+Size=
+Title=สัญญาณวิเคราะห์ ๑.๐๘
+
+[Package|Sigcap Setup|Package]
+PackageFolder=C:\Documents and Settings\Administrator\Desktop\Sigcap\Package
+ProjectFolder=M:\Documents and Settings\Administrator\Desktop\Sigcap
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\Desktop\Sigcap\Package\setup.exe
+File2=C:\Documents and Settings\Administrator\Desktop\Sigcap\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrator\Desktop\Sigcap\Package\Sigcap.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Sigcap Setup|IconGroups]
+Group0=สัญญาณวิเคราะห์ ๑.๐๘
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Sigcap Setup|สัญญาณวิเคราะห์ ๑.๐๘]
+Icon1=Sigcap.exe
+Title1=สัญญาณวิเคราะห์ ๑.๐๘
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Sigcap109 Setup|สัญญาณวิเคราะห์ ๑.๐]
+Icon1=Sigcap.exe
+Title1=สัญญาณวิเคราะห์ ๑.๐
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sigcap109 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=M:\Documents and Settings\Administrator\Desktop\Sigcap109\package
+
+[Package|Sigcap109 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sigcap109 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sigcap109 Setup|Files Found]
+calibrate.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal
+molybdate-cal.calib=M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib
+reproducibility.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal
+testrun001.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal
+
+[Package|Sigcap109 Setup|Files Released]
+signal001.signal=
+
+[Package|Sigcap109 Setup|Missing Dependency Information]
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=
+
+[Package|Sigcap109 Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSCOMM32.OCX=
+M:\WINDOWS\system32\scrrun.dll=
+
+[Package|Sigcap109 Setup|Files Added]
+m:\documents and settings\administrator\desktop\sigcap109\calibrate.signal=
+m:\documents and settings\administrator\desktop\sigcap109\molybdate-cal.calib=
+m:\documents and settings\administrator\desktop\sigcap109\reproducibility.signal=
+m:\documents and settings\administrator\desktop\sigcap109\test.calib=
+m:\documents and settings\administrator\desktop\sigcap109\test.signal=
+testrun001.signal=
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=
+
+[Package|Sigcap109 Setup|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Sigcap109 Setup|Files In Project]
+M:\WINDOWS\system32\msvbvm60.dll=Yes
+M:\WINDOWS\system32\oleaut32.dll=Yes
+M:\WINDOWS\system32\olepro32.dll=Yes
+M:\WINDOWS\system32\ASYCFILT.DLL=Yes
+M:\WINDOWS\system32\stdole2.tlb=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+M:\WINDOWS\system32\scrrun.dll=Yes
+M:\WINDOWS\system32\msvcrt.dll=Yes
+M:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+M:\WINDOWS\system32\COMDLG32.OCX=Yes
+M:\WINDOWS\system32\MSCOMM32.OCX=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+M:\WINDOWS\system32\VB6STKIT.DLL=Yes
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\Sigcap.exe=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\calibrate.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\molybdate-cal.calib=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\reproducibility.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.calib=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal=Yes
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=Yes
+
+[Package|Sigcap109 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Sigcap109 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Sigcap109 Setup|Install Locations]
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=$(AppPath)
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=$(AppPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+M:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+M:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=$(AppPath)
+M:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+M:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+M:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+M:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+M:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\Sigcap.exe=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\calibrate.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\molybdate-cal.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\reproducibility.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=$(AppPath)
+
+[Package|Sigcap109 Setup|Configure Shared Files]
+Applicable=Yes
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=No
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=Yes
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\Sigcap.exe=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\calibrate.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\molybdate-cal.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\reproducibility.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=No
+
+[Package|Sigcap109 Setup|Distribution]
+Type=single
+Size=
+Title=สัญญาณวิเคราะห์ ๑.๐๙
+
+[Package|Sigcap109 Setup|Package]
+PackageFolder=M:\Documents and Settings\Administrator\Desktop\Sigcap109\package
+ProjectFolder=M:\Documents and Settings\Administrator\Desktop\Sigcap109
+ServerSideCab=
+File1=M:\Documents and Settings\Administrator\Desktop\Sigcap109\package\setup.exe
+File2=M:\Documents and Settings\Administrator\Desktop\Sigcap109\package\Setup.Lst
+File3=M:\Documents and Settings\Administrator\Desktop\Sigcap109\package\Sigcap.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Sigcap109 Setup|IconGroups]
+Group0=สัญญาณวิเคราะห์ ๑.๐๙
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Sigcap109 Setup|สัญญาณวิเคราะห์ ๑.๐๙]
+Icon1=Sigcap.exe
+Title1=สัญญาณวิเคราะห์ ๑.๐๙
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="คู่มือการใช้งาน Sigcap109.pdf"
+Title2=คู่มือการใช้งาน Sigcap109
+StartIn2=$(AppPath)
+Key2=Icon2
+
+
+[Package|Sigcap 201 Setup|สัญญาณวิเคราะห์ ๑.๐]
+Icon1=Sigcap.exe
+Title1=สัญญาณวิเคราะห์ ๑.๐
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sigcap 201 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Sigcap201\package
+
+[Package|Sigcap 201 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sigcap 201 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sigcap 201 Setup|Files Found]
+testrun001.signal=M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal
+calibrate.signal=D:\Sigcap201\calibrate.signal
+
+[Package|Sigcap 201 Setup|Files Released]
+signal001.signal=
+
+[Package|Sigcap 201 Setup|Missing Dependency Information]
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=
+D:\Sigcap201\mcHID.dll=
+
+[Package|Sigcap 201 Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSCOMM32.OCX=
+M:\WINDOWS\system32\scrrun.dll=
+C:\Windows\SysWOW64\MSCOMM32.OCX=
+C:\Windows\SysWOW64\Comdlg32.ocx=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\scrrun.dll=
+
+[Package|Sigcap 201 Setup|Files Added]
+calibrate.signal=
+molybdate-cal.calib=
+reproducibility.signal=
+test.calib=
+test.signal=
+d:\sigcap201\testrun001.signal=
+คู่มือการใช้งาน sigcap109.pdf=
+
+[Package|Sigcap 201 Setup|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Sigcap 201 Setup|Files In Project]
+D:\Sigcap201\Sigcap.exe=Yes
+C:\Windows\System32\msvbvm60.dll=No
+C:\Windows\System32\oleaut32.dll=No
+C:\Windows\System32\olepro32.dll=No
+C:\Windows\System32\asycfilt.dll=No
+C:\Windows\System32\stdole2.tlb=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+D:\Sigcap201\mcHID.dll=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\Comdlg32.ocx=Yes
+C:\Windows\SysWOW64\MSCOMM32.OCX=Yes
+C:\Windows\SysWOW64\RICHTX32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Sigcap201\calibrate.signal=Yes
+D:\Sigcap201\molybdate-cal.calib=Yes
+D:\Sigcap201\reproducibility.signal=Yes
+D:\Sigcap201\test.calib=Yes
+D:\Sigcap201\test.signal=Yes
+D:\Sigcap201\testrun001.signal=Yes
+D:\Sigcap201\คู่มือการใช้งาน Sigcap109.pdf=Yes
+
+[Package|Sigcap 201 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Sigcap 201 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Sigcap 201 Setup|Install Locations]
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=$(AppPath)
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=$(AppPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=$(AppPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=$(AppPath)
+M:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+M:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=$(AppPath)
+M:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+M:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+M:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+M:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+M:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+M:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+M:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\Sigcap.exe=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\calibrate.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\molybdate-cal.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\reproducibility.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.calib=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal=$(AppPath)
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=$(AppPath)
+D:\Sigcap201\Sigcap.exe=$(AppPath)
+D:\Sigcap201\mcHID.dll=$(AppPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\Comdlg32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMM32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Sigcap201\calibrate.signal=$(AppPath)
+D:\Sigcap201\molybdate-cal.calib=$(AppPath)
+D:\Sigcap201\reproducibility.signal=$(AppPath)
+D:\Sigcap201\test.calib=$(AppPath)
+D:\Sigcap201\test.signal=$(AppPath)
+D:\Sigcap201\testrun001.signal=$(AppPath)
+D:\Sigcap201\คู่มือการใช้งาน Sigcap109.pdf=$(AppPath)
+
+[Package|Sigcap 201 Setup|Configure Shared Files]
+Applicable=Yes
+\\192.168.2.5\ce shared\Sigcap\Sigcap.exe=No
+\\192.168.2.5\ce shared\Sigcap\mcHID.dll=Yes
+\\192.168.2.5\ce shared\Sigcap\signal001.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Alexander\Desktop\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\Sigcap.exe=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\mcHID.dll=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\calibrate.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\molybdate-cal.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\reproducibility.signal=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.calib=No
+C:\Documents and Settings\Administrator\Desktop\งาน\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\Sigcap.exe=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\mcHID.dll=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\calibrate.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\molybdate-cal.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\reproducibility.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap\testrun001.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\Sigcap.exe=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\mcHID.dll=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\calibrate.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\molybdate-cal.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\reproducibility.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.calib=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\test.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\testrun001.signal=No
+M:\Documents and Settings\Administrator\Desktop\Sigcap109\คู่มือการใช้งาน Sigcap109.pdf=No
+D:\Sigcap201\Sigcap.exe=No
+D:\Sigcap201\mcHID.dll=No
+D:\Sigcap201\calibrate.signal=No
+D:\Sigcap201\molybdate-cal.calib=No
+D:\Sigcap201\reproducibility.signal=No
+D:\Sigcap201\test.calib=No
+D:\Sigcap201\test.signal=No
+D:\Sigcap201\testrun001.signal=No
+D:\Sigcap201\คู่มือการใช้งาน Sigcap109.pdf=No
+
+[Package|Sigcap 201 Setup|Distribution]
+Type=single
+Size=
+Title=สัญญาณวิเคราะห์ ๒.๐๑
+
+[Package|Sigcap 201 Setup|IconGroups]
+Group0=สัญญาณวิเคราะห์ ๒.๐๑
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Sigcap 201 Setup|สัญญาณวิเคราะห์ ๒.๐๑]
+Icon1="คู่มือการใช้งาน Sigcap109.pdf"
+Title1=คู่มือการใช้งาน Sigcap 201
+StartIn1=$(AppPath)
+Key1=Icon2
+Icon2=Sigcap.exe
+Title2=สัญญาณวิเคราะห์ ๒.๐๑
+StartIn2=$(AppPath)
+Key2=Icon1
+
+[Package|Sigcap 201 Setup|Package]
+PackageFolder=D:\Sigcap201\package
+ProjectFolder=D:\Sigcap201
+ServerSideCab=
+File1=D:\Sigcap201\package\setup.exe
+File2=D:\Sigcap201\package\Setup.Lst
+File3=D:\Sigcap201\package\Sigcap.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
